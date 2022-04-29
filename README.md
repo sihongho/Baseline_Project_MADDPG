@@ -1,7 +1,7 @@
 
 # MADDPG Baseline 
 
-We provide the training data by using MADDPG in 8 MPE scenarios. Pictures, training records, training data, trained models are all included.
+We provide the training data by using MADDPG in 8 MPE scenarios. Pictures, testing data (in ./benchmark_files/), training data (in ./learning_curves/), trained models (in ./models/) are all included.
 
 List of scenarios
 
