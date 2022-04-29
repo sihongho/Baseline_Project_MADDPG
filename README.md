@@ -37,6 +37,21 @@ Coop&Comp s8 - "simple_world_comm" (No Formal Name), Non-zerosum Comp, SameR Coo
 
 ![S8](/experiments/plots/s8.png)
 
+## To produce the testing data
+
+One can run the following commands.
+
+`python train.py --scenario simple_spread --save-dir models/s3/ma_s3_e20/ --exp-name ma_s3_e20 --benchmark`
+
+`python train.py --scenario simple_adversary --save-dir models/s4/ma_s4_e20/ --exp-name ma_s4_e20 --benchmark`
+
+`python train.py --scenario simple_crypto --save-dir models/s5/ma_s5_e20/ --exp-name ma_s5_e20 --benchmark`
+
+`python train.py --scenario simple_tag --save-dir models/s7/ma_s7_e20/ --exp-name ma_s7_e20 --benchmark`
+
+`python train.py --scenario simple_world_comm --save-dir models/s8/ma_s8_e20/ --exp-name ma_s8_e20 --benchmark`
+
+
 **Status:** Archive (code is provided as-is, no updates expected)
 
 # Multi-Agent Deep Deterministic Policy Gradient (MADDPG)
