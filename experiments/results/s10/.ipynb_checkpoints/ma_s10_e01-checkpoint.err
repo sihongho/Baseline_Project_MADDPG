@@ -1,0 +1,2 @@
+nohup: ignoring input
+2022-07-28 21:51:41.646750: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
